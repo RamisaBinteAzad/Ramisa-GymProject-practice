@@ -102,17 +102,17 @@ body{
     padding:30px;
     border-radius:7px;
     margin-top:40px;
-    transition:.7ms;
+    transition:.8ms; 
 }
 .card1:hover{
     border: 1px solid red;
     margin-top:-20px;
-    transition:.7ms;
+    transition:.8ms;
 }
 
  .title2{
     text-align: center;
-    font-size:50px;
+    font-size:40px;
     font-weight: bold;
     margin-bottom:40px;
      
@@ -126,4 +126,32 @@ body{
     width:50px;
    
 
+ }
+ .about-us-container{
+    display: flex;
+    background-color:black;
+    color:white;
+ }
+ .about-left{
+    width:700px;
+    
+ }
+ .about-right{
+    width:700px;
+     
+ }
+ .workout-image{
+    display:flex;
+    justify-content: space-evenly; 
+    margin-top:50px;
+ }
+ .workout-image img{
+    display:flex;
+    width:260px;
+    height:450px;
+    transform:skewY(-15deg);
+ }
+ .about-more-link{
+    color:white;
+    text-decoration: none;
  }
