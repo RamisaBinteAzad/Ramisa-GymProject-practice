@@ -15,6 +15,7 @@ body{
     padding:0;
     margin:0;
     font-style: italic;
+     
 }
 .menu-items{
     display: flex;
@@ -149,9 +150,35 @@ body{
     display:flex;
     width:260px;
     height:450px;
-    transform:skewY(-15deg);
+    transform:skewy(-15deg);
  }
  .about-more-link{
     color:white;
     text-decoration: none;
+ }
+ .workout-container{
+    width:50%;
+    height:220px;
+    background-image:url(./images/shape/Group_33094_1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius:20px;
+    margin:0 auto;
+    margin-top: 70px;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+ }
+ .chat-button{
+    padding:10px 25px;
+   
+ }
+ .chat-button:hover{
+    background-color: blue;
+    color:white;
+    border:1px solid blue;
+    border-radius:5px;
  }
